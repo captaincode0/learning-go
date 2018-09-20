@@ -10,9 +10,9 @@ func main(){
   fmt.Println("How many farenheit degrees there is? ")
   fmt.Scanf("%f", &farenheit_degrees)
 
-  fmt.Println(farenheit_degrees);
+  fmt.Println(farenheit_degrees)
 
-  celcius_degrees = (farenheit_degrees-32.0)*(5/9)
+  celcius_degrees = (farenheit_degrees-32.0)*5/9
 
   fmt.Println("Celcius degrees are ", celcius_degrees)
 }

@@ -7,8 +7,8 @@ func main(){
     Integers
     Are numbers without a decimal representation
     In go there are different kind of integers
-    1. uint: unsigned integer with domain from [0,n]
-    2. int: signed integer with domain from [-n,n]
+    1. uint(8,16,32,64): unsigned integer with domain from [0,n]
+    2. int(8,16,32,64): signed integer with domain from [-n,n]
 
     There are three machine integer that depends of size that architecture defines
     uint, int, uintptr
